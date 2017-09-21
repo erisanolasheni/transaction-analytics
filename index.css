@@ -239,9 +239,10 @@ a
 	color: #fff;
 	background: #1282D9;
 }
-g
+g:hover
 {
-	opacity: .5;
+	transition: opacity .3s ease-in-out;
+	opacity: .7;
 }
 @media (max-width: 768px)
 {
