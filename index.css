@@ -68,6 +68,7 @@ a
 {
 	vertical-align: middle;
 	margin: 0 20px;
+	float: left;
 }
 .bck
 {
@@ -233,6 +234,7 @@ a
 	float: left;
 	text-align: center;
 	transition: background .3s ease-in;
+	cursor: default;
 }
 .footnav li:hover,.footnav li.active
 {
