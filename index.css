@@ -215,7 +215,15 @@ a
 	color: #F76126;
 	border-bottom: solid 1px #F76126;
 	display: inline-block;
-	text-align: center;	
+	text-align: center;
+	float: right;
+	transition: border .3s ease-in-out;
+}
+.action-link:hover
+{
+	text-decoration: none;
+	border-color: #fff;
+	color: #F76126;
 }
 .footnav
 {
