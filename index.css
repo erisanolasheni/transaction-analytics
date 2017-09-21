@@ -131,12 +131,26 @@ a
 	color: #25313E;
 	background: #C1D6DD;
 }
+.morenav
+{
+	font-size: 90%;
+	margin-top: 12px;
+	text-transform: capitalize;
+}
+.side-nav li a.active2
+{
+	color: #F76126;
+}
 .chart_contain
 {
 	overflow: hidden;
 	width: 100%;
 	position: relative;
 	width: 100%;
+}
+.bullet
+{
+	margin: 0 10px;
 }
 .amt_label
 {
@@ -147,6 +161,90 @@ a
 {
 	height: 100%;
 	border-right:solid 2px #25313E;
+}
+.green
+{
+	color: #27AE60;
+}
+.lists
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #fff;
+}
+.lists li
+{
+	display: block;
+	margin: 0;
+	padding: 10px 20px;
+	color: #4F4F4F;
+	overflow: hidden;
+}
+.lists li img
+{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	vertical-align: middle;
+	float: left;
+	margin: 0 20px 0 0;
+	background: #eee;
+}
+.btn-default,.btn-group
+{
+	border: 0 !important;
+}
+.lists li:hover
+{
+	box-shadow: 0 3px 2px -2px rgba(0,0,0,.4);
+}
+.spaced
+{
+	margin-left: 20px;
+	width: 20% !important;
+}
+.mid
+{
+}
+.action-link
+{
+	padding-bottom: 5px;
+	color: #F76126;
+	border-bottom: solid 1px #F76126;
+	display: inline-block;
+	text-align: center;	
+}
+.footnav
+{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.footnav li
+{
+	padding: 3px 10px;
+	margin: 5px;
+	overflow: hidden;
+	color: #fff;
+	background: #F76126;
+	border: solid 1px #F76126;
+	float: left;
+	text-align: center;
+	transition: background .3s ease-in;
+}
+.footnav li:hover,.footnav li.active
+{
+	border-color: #ccc;
+	color: #F76126;
+	background: #fff;
+}
+.user-name
+{
+	width: 30%;
+	float: left;
+	vertical-align: middle;
+	font-size: 21px;
 }
 .search
 {
@@ -187,6 +285,14 @@ a
 	float: left;
 	padding: 20px;
 	border-left: solid 1px #ccc;
+}
+.body2
+{
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	margin: 10px 0;
+	color: #333;
+	padding: 20px 40px;
 }
 .body-contain
 {
