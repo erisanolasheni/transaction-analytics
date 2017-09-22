@@ -203,7 +203,7 @@
 		border-radius: 100%;
 		vertical-align: middle;
 		float: left;
-		margin: 0 30px 0 0;
+		margin: 0 20px 0 0;
 		background: #eee;
 	}
 	.btn-default,.btn-group
@@ -272,6 +272,7 @@
 		float: left;
 		vertical-align: middle;
 		font-size: 21px;
+		margin-left: 40px;
 	}
 	.search
 	{
